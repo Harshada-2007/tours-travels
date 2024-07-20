@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 9px;
+    margin-top: 12px;
+    font-size: 40px;
+    font-weight:bold;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+    width: 212px;
+    height: 56px;
+}
+body{
+    font-size: 14px;
+   
+    background-image: url("register3.jpg");
+    background-size: cover;
+}
+.container{
+    background-color: #b4dcf7;
+    background-image: url("clouds.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border: 5px solid #6cbff6;
+    border-radius: 5px;
+}
+.container h2{
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 180px;
+    height: 30px;
+}
+.text-name{
+    width: 180px;
+    height: 30px;
+}
+.country{
+    width: 180px;
+    height: 30px;
+}
+.button{
+    width: 180px;
+    height: 30px;
+
+}
+.head{
+    font-size: 50px;
+}
+.button{
+    width: 150px;
+    height: 35px;
+    margin-right: 7px;
+    background-color: indianred;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.check-button{
+    font-size: 35px;
+}
+.button:hover{
+    background-color: rgb(181, 46, 46) ;
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: #b4dcf7;;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    margin-left: 9px;
+    margin-top: 12px;
+    font-size: 40px;
+    font-weight:bold;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+    width: 212px;
+    height: 56px;
+}
+.holidaypack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.box {
+    border: 5px solid rgb(130, 209, 249);
+    height: 370px;
+    width: 720px;
+    background-color: white;
+   
+    margin-top: 20px;
+}
+.box-img {
+    height: 361px;
+    background-size: cover;
+}

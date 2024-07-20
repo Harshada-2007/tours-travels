@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('tourimg.avif');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    margin-left: 9px;
+    font-size: 40px;
+    font-weight:bold;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: all 2s ease-in 0;
+    background-color: rgb(208, 239, 250);
+    border: 2px solid rgb(6, 91, 143)
+
+}
+.border:hover{
+    border-bottom:2px solid black;
+    /*transition: all 2s ease-in 0;*/
+
+}
+.register{
+    width: 150px;
+    height: 35px;
+    margin-right: 7px;
+    background-color: indianred;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.register:hover{
+    background-color: rgb(181, 46, 46) ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: o.4s linear;
+}
+.border:hover{
+    border-bottom: 2.5px solid indianred;
+}
+.content{
+    text-align: center;
+    margin-top: 200px
+}
+.enjo{
+    font-weight: bold;
+    font-size: 25px;
+}
+.int {
+    font-size: 65px;
+    font-weight: bold;
+}
+.book{
+    background-color: indianred;
+    color: white;
+    width: 250px;
+    height: 35px;
+    border: 2px solid rgb(194, 39, 39);
+    border-radius: 5px;
+    font-size: 23px;
+}
+.packages{
+    background-color: rgb(208, 239, 250);
+    border: none;
+    font-size: 20px;
+}
+.select{
+    border: none;
+    margin: 10px;
+}
+option{
+    font-size: 18px;
+}

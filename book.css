@@ -1,0 +1,45 @@
+.logo{
+    margin-left: 9px;
+    margin-top: 12px;
+    font-size: 40px;
+    font-weight:bold;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+    width: 212px;
+    height: 56px;
+}
+body{
+    background-image: url(msgimg.jpg);
+    background-size: cover;
+}
+.message{
+    height: 100px;
+    background-color: #b4dcf7;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   border-top: 5px solid #7bb9e2;
+   border-left: 5px solid #7bb9e2;
+   border-right: 5px solid #7bb9e2;
+   border-radius: 7px;
+}
+
+.mes{
+    background-color: #b4dcf7;
+    border-left:5px solid #7bb9e2;
+    border-right:5px solid #7bb9e2;
+    border-bottom:5px solid #7bb9e2;
+    border-radius: 7px;
+    text-align: center;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: indianred;
+}
+a:hover{
+    color:#345469;
+}
